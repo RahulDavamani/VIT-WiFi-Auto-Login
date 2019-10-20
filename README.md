@@ -22,3 +22,6 @@ Versions:
 * 1.3.0
    * Added Notification
    * 19/10/2019
+* 1.3.1
+   * Minified The Code with Gulp.js
+   * 20/10/2019

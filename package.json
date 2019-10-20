@@ -1,0 +1,27 @@
+{
+  "name": "vit-wifi",
+  "version": "1.0.0",
+  "description": "This is a Chrome Extension used to automate your login process to connect your VIT 2.4G/5G.\r Provide Your Login Credentials and Connect to VIT WiFi like an ordirnary WiFi.\r Your Passwords are Stored on Your Browser. It is not sent or stored on any external storage.\r Support and Share it to others.\r Designed and Developed by *Rahul Davamani.*",
+  "main": "app.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahulDavamani/VIT-WiFi-Auto-Login.git"
+  },
+  "author": "Rahul Davamani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RahulDavamani/VIT-WiFi-Auto-Login/issues"
+  },
+  "homepage": "https://github.com/RahulDavamani/VIT-WiFi-Auto-Login#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-csso": "^3.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-jsonminify": "^1.1.0",
+    "gulp-zip": "^5.0.1"
+  }
+}
