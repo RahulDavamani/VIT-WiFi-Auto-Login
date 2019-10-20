@@ -30,7 +30,7 @@ function minjs() {
       .pipe(dest('dist'));
 }
 function zipdist() {
-   return src('dist')
+   return src('dist/**/*')
       .pipe(zip('VIT Wifi.zip'))
       .pipe(dest('.'))
 }
